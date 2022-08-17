@@ -1,0 +1,18 @@
+Flashed to keyboard
+
+TO DO:
+- Fix Layer display (something to do with length)
+
+
+MAYBE TO DO:
+Unicode layer with custom unicode arrays like : UCIS_SYM("look", 0x0CA0, 0x005F, 0x0CA0)  // ಠ_ಠ or emojis like; UCIS_SYM("poop", 0x1F4A9),                // 💩
+Auto correction
+Text editing key layer
+
+some useful things:
+
+LED byte array viewer: http://javl.github.io/image2cpp/
+Root hotdox file location: C:\Users\Bengus\qmk_firmware\keyboards\yandrstudio\wired\hotdox76v2
+Character size(WxH) | 12 x 16 px
+Logo size (WxH) | 32 x 32 px
+How to compile command: qmk compile -kb yandrstudio/wired/gremblodox/leftkb -km default

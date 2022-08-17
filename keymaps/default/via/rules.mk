@@ -1,0 +1,7 @@
+VIA_ENABLE = yes
+# RGBLIGHT_ENABLE = yes
+# RGBLIGHT_DRIVER = WS2812
+# RGB_MATRIX_ENABLE = yes
+# RGB_MATRIX_DRIVER = WS2812
+
+SRC += features/select_word.c
